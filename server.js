@@ -2,12 +2,12 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var app     = express();
 const User = require('./models/User');
-const { validationResult } = require('express-validator/check');
+const { validationResult } = require('express-validator');
+require('dotenv').config()
 
 // Set up mongoose connection
 var mongoose = require('mongoose');
-var dev_db_url = 'mongodb+srv://cat:meow@cluster0-jlzna.mongodb.net/erobb221names?retryWrites=true&w=majority'
-var mongoDB = process.env.MONGODB_URI || dev_db_url;
+var mongoDB = process.env.MONGO_URI;
 mongoose.connect(mongoDB, { useNewUrlParser: true });
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
