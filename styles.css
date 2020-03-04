@@ -219,3 +219,34 @@ main {
     transform: rotate(20deg);
     display: none;
 }
+
+@media only screen and (max-width: 640px) {
+    section,
+    .promo,
+    main,
+    div,
+    .store,
+    .promo-description,
+    nav {
+        display: none;
+    }
+
+    body {
+        padding: 20px;
+        color: #fff;
+        font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    }
+
+    #not-responsive {
+        display: block;
+        text-align: center;
+    }
+
+    #not-responsive p {
+        padding: 20px;
+    }
+
+    #not-responsive img {
+        margin-top: 50px;
+    }
+}
