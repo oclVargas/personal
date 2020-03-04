@@ -4,7 +4,13 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
+.logo {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.peanutsimg {
     height: 70vh;
 }
 

@@ -6,6 +6,12 @@ body {
     background-color: #4493a5;
 }
 
+img {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
 h1 {
     text-align: center;
 }

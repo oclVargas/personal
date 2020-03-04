@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Letter from Lamont</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="formstyle.css">
 </head>
 <body>
+    <a href="index.html"><img src="./images/favicon-32x32.png" alt="erobb logo"></a> 
     <div class="container">
         <h1>Tell us about yourself</h1>
         <form action="https://rocky-bayou-91715.herokuapp.com/" method="POST" class="contact-form">
             <label for="name">Twitch Name</label>
             <input type="text" name="name" id="name" required>
             <label for="details">What's something you want Erobb to know about you?</label>
-            <textarea name="details" id="details" cols="30" rows="10" placeholder="" required></textarea>
+            <textarea name="details" id="details" cols="30" rows="10" required></textarea>
             <button class="submitBtn">Submit</button>
         </form>
     </div>

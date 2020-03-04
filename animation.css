@@ -6,6 +6,12 @@ html {
   text-align: center;
 }
 
+.logo {
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+
 .explanation {
     color: #fff;
     margin: 0 auto;
