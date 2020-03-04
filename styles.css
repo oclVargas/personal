@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    background-color: #A55544;
+}
+
+nav {
+    margin: 0 auto;
+    /* width: 50%; */
+    background-color: #A55544;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+}
+
+nav i {
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+#cart-clicker {
+    z-index: 800;
+    height: 160px;
+    position: absolute;
+    right: 460px;
+    top: 50px;
+    display: none;
+}
+
+.promo {
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    font-family: 'Poppins';
+    margin-bottom: 80px;
+}
+
+.promo-description {
+    text-align: center;
+    padding-left: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.promo-description a {
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #256775;
+    align-self: center;
+    border-radius: 4px;
+}
+
+.promo-description a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.streamer-name {
+    font-size: 9rem;
+    color:  #256775;
+}
+
+.promo img {
+    position: absolute;
+    right: 300px;
+    top: -120px;
+    height: 800px;
+}
+
+.promo-twitch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.thanks {
+    font-family: 'Poppins';
+}
+
+.thanks:hover {
+    background-color: #1e525e;
+}
+
+.promo-twitch a:visited {
+    color: #000;
+}
+
+.promo-twitch i {
+    margin: 10px;
+}
+
+/* FREE LAPTOP */
+.ad {
+    position: absolute;
+    height: 100px;
+    color: #000;
+    padding: 10px;
+    font-size: 11px;
+    right: 0;
+    bottom: 300px;
+}
+
+.ad img {
+    height: 100px;
+    top: 0;
+}
+
+main {
+    display: flex;
+    height: 40vh;
+    margin-bottom: 80px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+.showcase {
+    background: #fffbd5; /* fallback for old browsers */
+    background: linear-gradient(to right,#D8C3A0, #C9AE8C);
+    color: #A55544;
+    flex: 1;
+    font-family: 'Poppins';
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+}
+
+.showcase span {
+    font-size: 10rem;
+}
+
+.showcase-image {
+    background: url('./erobb221.jpg') top center no-repeat;
+    height: auto;
+    flex: 1;
+}
+
+
+
+/* Store */
+.store {
+    width: 70%;
+    margin: 0 auto 80px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.store-item {
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #efefef;
+    background-color: #fff;
+    box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.item-name {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.item-price {
+    font-family: 'Poppins';
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.item-img img {
+    height: 200px;
+    width: 200px;
+}
+
+.store-item a {
+    display: block;
+    font-size: 1rem;
+    background: #4493a5;
+    /* border: 1px solid #e76c67; */
+    border: 1px solid #4493a5;
+    padding: 0.75rem 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.store-item a:hover,
+.store-item a:focus {
+    cursor: pointer;
+    background: #1e525e;
+    border: 1px solid #1e525e;
+}
+
+.FourWeird {
+    position: absolute;
+    right: 150px;
+    bottom: -900px;
+    z-index: -1;
+    transform: rotate(20deg);
+    display: none;
+}

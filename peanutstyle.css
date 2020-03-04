@@ -1,0 +1,19 @@
+html {
+    background-color: #000;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: 70vh;
+}
+
+.dan {
+    height: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
