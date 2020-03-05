@@ -4,6 +4,10 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html, body {
+    cursor: url('./images/emotes/rsz_dansgame-png.png'), auto;
+}
+
 .logo {
     position: absolute;
     left: 30px;
@@ -12,10 +16,6 @@ html {
 
 .peanutsimg {
     height: 70vh;
-}
-
-.dan {
-    height: 32px;
 }
 
 .container {

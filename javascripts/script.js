@@ -2,6 +2,13 @@ const FourWeirdBtn = document.querySelector('.FourWeirdBtn');
 const FourWeird = document.querySelector('.FourWeird');
 const shoppingCart = document.querySelector('.fa-shopping-cart');
 const FourErobb = document.querySelector('#cart-clicker');
+const shirtBtn = document.querySelector('.shirt-btn');
+const shirtImg = document.querySelector('.old-shirt');
+const shirtPrice = document.querySelector('.shirt-price');
+
+shirtBtn.addEventListener('click', (() => {
+    shirtImg.src = "./images/beustay.jpg";
+}))
 
 FourWeirdBtn.addEventListener('mouseover', (() => {
     FourWeird.style.display = 'block';
