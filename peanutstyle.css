@@ -8,6 +8,18 @@ html, body {
     cursor: url('./images/emotes/rsz_dansgame-png.png'), auto;
 }
 
+.erobb12 {
+    width: 200px;
+    padding-left: 20px;
+}
+
+.erobb12 img {
+    height: 250px;
+    width: 300px;
+}
+
+
+
 .logo {
     position: absolute;
     left: 30px;
