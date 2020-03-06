@@ -5,9 +5,19 @@ const FourErobb = document.querySelector('#cart-clicker');
 const shirtBtn = document.querySelector('.shirt-btn');
 const shirtImg = document.querySelector('.old-shirt');
 const shirtPrice = document.querySelector('.shirt-price');
+const fishPrice = document.querySelector('.fish-price');
+const fishBtn = document.querySelector('.fish-button');
 
 shirtBtn.addEventListener('click', (() => {
     shirtImg.src = "./images/beustay.jpg";
+}))
+
+fishBtn.addEventListener('click', (() => {
+    fishPrice.innerHTML = '';
+    const arnold = document.createElement('img');
+    arnold.setAttribute('src', './images/emotes/arnoldhalt.png');
+    arnold.style.height = "48px";
+    fishPrice.appendChild(arnold);
 }))
 
 FourWeirdBtn.addEventListener('mouseover', (() => {
